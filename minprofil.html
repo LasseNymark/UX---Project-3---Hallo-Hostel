@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="da en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        
+<main id="containerprofil">
+      
+        <header class="nav">
+    
+            <a href="minprofil.html"><img id="logo" src="images/hallohostellogo.png" alt="logo"></a>
+
+            <label for="toggle">&#9776;</label>
+
+            <input type="checkbox" id="toggle"/>
+
+            <div class="menu">
+                <a href="minprofil.html">My Profile</a>
+                <a href="keycard.html">Keycard</a>
+                <a href="events.html">Events</a>
+                <a href="attractiondeals.html">Attractiondeals</a>
+                <a href="cafe.html">The Café</a>
+            </div>
+       
+        </header>     
+    
+    <section id="halloxxx">
+    
+        <h1 class="profilh1">Hallo, xxx</h1>
+
+        <p class="profilp">Welcome! On this app you get all the information you need to stay with us at Hallo Hostel! If you just arrived, you need to check in to use your keycard. <br><br>You can only check in from the day your stay starts. Simply click the check in button when you have arrived. If you cannot check in, please click here for more information!</p>
+    
+    </section>
+        
+    <div class="check"><a class="check" href="">Check in</a></div>
+      
+    <section class="grey bookinginfo">
+      
+        <h2 class="profilh1">App information</h2>
+
+        <p class="profilp">Besides using this app for your keycard, you will find information about the Hostel and pricing, about deals around the city and what to see when you are here. <br><br> Also you can find the cafe menu and what events are going on on hostel, so you can connect with more people while you are staying with us. <br><br>If you have any question at all, you are more than welcome to ask us! You can find us in the cafe, which is also the reception. </p>
+      
+    </section>
+     
+    <div id="review">
+        
+        <img id="stars" src="images/stars3.png" alt="">
+        <p>Review <strong><i><a href="https://www.facebook.com/hostelaarhuscity/" target="_blank">Hallo Hostel here</a></i></strong> to get a free soda or coffee in the café</p>
+                
+    </div>
+      
+    <section class="grey key">
+      
+        <h2 class="profilh1">Keycard</h2>
+
+        <p class="profilp">This is your keycard! you use this when you need to get into the hostel and into your room.</p>
+
+        <div class="keycardknap"><a class="keycardknap" href="/keycard.html">Find your keycard here</a></div>
+      
+    </section>
+      
+      <p class="profilh1">When your stay is over you can check out here!</p>
+      
+      <div class="check"><a class="check" href="">Check Out</a></div>
+      
+      <footer>Fiskergade 2, 8000 Aarhus C - Tlf: 8610 1020</footer>      
+      
+</main>   
+          
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script> 
+    
+$(document).ready(function(){
+
+    $("label").click(function(){
+        $(".menu").slideToggle("slow");
+    });
+    
+});
+    
+</script>
+    
+</body>
+
+</html>
